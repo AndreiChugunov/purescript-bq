@@ -1,4 +1,4 @@
-const BQ = require("@google-cloud/bigquery");
+const {BQ} = require("@google-cloud/bigquery");
 
 exports._createClient = function(projId) {
   return function(keyFileName) {
