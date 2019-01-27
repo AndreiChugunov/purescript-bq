@@ -14,17 +14,20 @@
     "purescript-either": "^4.0.0",
     "purescript-exceptions": "^4.0.0",
     "purescript-foreign": "^5.0.0",
-    "purescript-aff": "^5.0.2"
+    "purescript-aff": "^5.0.2",
+    "purescript-nullable": "^4.1.1"
   },
   "devDependencies": {
     "purescript-psci-support": "^4.0.0"
   },
   "homepage": "https://github.com/juspay/purescript-bq",
   "description": "Purescript bindings for nodejs-bigquery library",
-  "authors": ["Juspay Technologies"],
+  "authors": [
+    "Juspay Technologies"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/juspay/purescript-bq.git"                  
+    "url": "https://github.com/juspay/purescript-bq.git"
   },
   "license": "MIT",
   "version": "v0.1.5"
