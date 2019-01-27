@@ -1,13 +1,8 @@
 module BigQuery.Types(QueryOpts(..)) where
 
-data QueryOpts = 
-  BaseOptions
+type QueryOpts = forall a. 
   { query :: String
   , useLegacySql :: Boolean
+  | a
   }
-  |
-  CsvOptions
-  { query :: String
-  , useLegacySql :: Boolean
-  , destination :: String
-  }
+  
