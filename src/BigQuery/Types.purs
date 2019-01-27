@@ -1,8 +1,10 @@
 module BigQuery.Types(QueryOpts) where
 
-type QueryOpts = forall a. 
+import Data.Nullable(Nullable)
+
+type QueryOpts =
   { query :: String
   , useLegacySql :: Boolean
-  | a
+  , destination :: Nullable String
   }
   
