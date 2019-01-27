@@ -1,4 +1,4 @@
-module BigQuery.Types(QueryOpts(..)) where
+module BigQuery.Types(QueryOpts) where
 
 type QueryOpts = forall a. 
   { query :: String
